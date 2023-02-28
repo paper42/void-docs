@@ -22,3 +22,8 @@ optional = true
 optional = true
 follow-web-links = true
 exclude = [ 'kernel\.org', 'ntp\.org', '\.onion', 'localhost', 'sjtu\.edu\.cn', 'userbase\.kde\.org', 'mirrors\.cnnic\.cn' ]
+
+[preprocessor.pre]
+renderers = ["html"]
+command = "python3 pre.py"
+
